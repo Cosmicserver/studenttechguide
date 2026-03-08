@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>Contact StudentTech Guide | StudentTech Guide</title>
+  <meta name='description' content='Contact StudentTech Guide for suggestions, collaboration, or feedback about student technology content.' />
+  <meta property='og:title' content='Contact StudentTech Guide' />
+  <meta property='og:description' content='Contact StudentTech Guide for suggestions, collaboration, or feedback about student technology content.' />
+  <meta property='og:type' content='website' />
+  <meta property='og:url' content='https://studenttechguide.pages.dev/contact.html' />
+  <link rel='canonical' href='https://studenttechguide.pages.dev/contact.html' />
+  <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:title' content='Contact StudentTech Guide' />
+  <meta name='twitter:description' content='Contact StudentTech Guide for suggestions, collaboration, or feedback about student technology content.' />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+  <link href='https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@500;600;700;800&display=swap' rel='stylesheet' />
+  <link rel='stylesheet' href='styles.css' />
+  <script defer src='script.js'></script>
+</head>
+<body>
+  <div id='readingProgress' class='reading-progress' aria-hidden='true'></div>
+  <header class='site-header'>
+  <nav class='container nav' aria-label='Main navigation'>
+    <a href='index.html' class='logo'>StudentTech Guide</a>
+    <button class='menu-toggle' id='menuToggle' aria-expanded='false' aria-controls='navLinks' aria-label='Toggle menu'>
+      <span></span><span></span><span></span>
+    </button>
+    <ul class='nav-links' id='navLinks'>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='blog.html'>Blog</a></li>
+        <li><a href='about.html'>About</a></li>
+        <li><a class='active' href='contact.html'>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section class='page-hero'>
+      <div class='container'>
+        <p class='eyebrow'>Contact</p>
+        <h1>Get in Touch</h1>
+        <p class='muted'>Send feedback, article suggestions, or partnership ideas.</p>
+      </div>
+    </section>
+    <section class='section'>
+      <div class='container contact-grid'>
+        <article class='surface'>
+          <h2>Contact Form</h2>
+          <form id='contactForm' class='contact-form' novalidate>
+            <label for='name'>Name</label>
+            <input id='name' name='name' type='text' required />
+            <label for='email'>Email</label>
+            <input id='email' name='email' type='email' required />
+            <label for='message'>Message</label>
+            <textarea id='message' name='message' required></textarea>
+            <button type='submit' class='btn btn-primary'>Send Message</button>
+            <p id='formMessage' class='form-msg' aria-live='polite'></p>
+          </form>
+        </article>
+        <article class='surface'>
+          <h2>Direct Contact</h2>
+          <p>For collaborations and content requests, email us directly:</p>
+          <p><a href='mailto:honey.95595.0@gmail.com'>honey.95595.0@gmail.com</a></p>
+          <p class='muted'>Response window: usually within 24-48 hours on working days.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class='site-footer'>
+  <div class='container footer-grid'>
+    <div class='footer-links'>
+      <a href='index.html'>Home</a>
+      <a href='blog.html'>Blog</a>
+      <a href='about.html'>About</a>
+      <a href='contact.html'>Contact</a>
+    </div>
+    <p class='footer-note'>(c) <span id='currentYear'>2026</span> StudentTech Guide. Practical tech guides for students.</p>
+  </div>
+</footer>
+</body>
+</html>
